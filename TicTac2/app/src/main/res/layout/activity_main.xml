@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="166dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="252dp"
+            android:columnCount="7"
+            android:rowCount="6">
+
+            <!-- Cambia el número de celdas a 42 (7 columnas * 6 filas) -->
+            <Button
+                android:id="@+id/cell_0_0"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_0_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_0_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_0_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_0_4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_0_5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_0_6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <!-- Continúa con el resto de botones... -->
+            <Button
+                android:id="@+id/cell_1_0"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_1_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_1_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_1_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_1_4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_1_5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_1_6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_2_0"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_2_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_2_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_2_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_2_4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_2_5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_2_6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_3_0"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_3_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_3_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_3_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_3_4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_3_5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_3_6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_4_0"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_4_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_4_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_4_3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_4_4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_4_5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_4_6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_5_0"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_5_1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_5_2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_5_3"
+                android:layout_width="47dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_5_4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_5_5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+            <Button
+                android:id="@+id/cell_5_6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="1dp"
+                android:background="@android:color/white" />
+
+        </GridLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_player_turn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        app:layout_constraintBottom_toTopOf="@+id/btn_restart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar"
+        app:layout_constraintTop_toBottomOf="@+id/tv_player_turn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
